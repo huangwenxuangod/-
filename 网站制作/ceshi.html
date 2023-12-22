@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <a :href="url">链接1</a>
+        <a :href="url">链接2</a>
+        <input type="text" v-model="url">
+    </div>
+    <script>
+        new Vue ({
+            el:"#app",//这tmshi l啊
+            data:{
+                message:"helloworld",
+                url:"https://www.baidu.com"
+            }
+        })
+    </script>
+</body>
+</html>

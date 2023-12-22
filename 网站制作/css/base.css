@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none ;
+    text-decoration: none;
+    
+}
+a {
+    white-space: nowrap;
+}
+.quanju
+{
+    width: 100%;
+    height: 100%;
+}
+.wrapper
+{
+    margin: 0 auto;
+    width: 1200px;
+    background-color: red;
+}
+@keyframes bigger4 {
+    0%{}
+    50%{transform: translate(-50%,-50%);}
+    100%{transform: translate(-50%,-50%) scale(2,2);}
+}
+@keyframes bigger3 {
+    0%{}
+    50%{transform: translate(50%,-50%);}
+    100%{transform: translate(50%,-50%) scale(2,2);}
+}
+@keyframes bigger2 {
+    0%{}
+    50%{transform: translate(-50%,50%);}
+    100%{transform: translate(-50%,50%) scale(2,2);}
+}
+@keyframes bigger1 {
+    0%{}
+    50%{transform: translate(50%,50%);}
+    100%{transform: translate(50%,50%) scale(2,2);}
+}
