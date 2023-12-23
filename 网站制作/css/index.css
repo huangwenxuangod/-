@@ -161,12 +161,46 @@
     {
         order: -1;
     }
-    .wrapper ul li
+    .wrapper ul  li
     {   flex: 1;
         padding: 10px;
         background-color:pink;
         border-radius: 15px;
+        
     }
+    .wrapper ul li div 
+    {
+        width: 100%;
+        
+    }
+    /* ol */
+    
+    .fenkai
+    {   
+        transition: none none !important;
+    
+        position: absolute;
+    }
+    .fenkai li
+    {
+        animation: none none !important;
+        width:100px;
+        position: relative;
+    }
+   
+
+    .wrapper .One  li:nth-child(2):hover
+    {
+        animation: bigger2 1s  linear forwards ;
+       
+
+    }
+    .wrapper .One li:nth-child(1):hover
+        {
+        animation: bigger1 1s  linear forwards ;
+        
+    }
+   
     .wrapper .two li:nth-child(2):hover
     {
         
@@ -178,25 +212,7 @@
         animation: bigger3 1s linear forwards ;
         
     }
-    .wrapper .one li:hover:nth-child(2):hover
-    {
-        animation: bigger2 1s  linear forwards ;
-       
-
-    }
-    .wrapper .one li:nth-child(1):hover
-    {
-        animation: bigger1 1s  linear forwards ;
-        
-    }
-    .wrapper.one li:nth-child(1) {
-      
-      
-        
-    }
-    .wrapper.one li h2{
-        
-    }
+    
 /* 撑背景 */
 .last
 
@@ -215,6 +231,17 @@
 .last2{
     height: 100%;
     width: 40%;
-    background-color: red;
+   
     margin-left: 50px;
+}
+.last2 div 
+{   display: flex;
+    
+    justify-content: center;
+}
+.last2 div img {
+
+    display: block;
+    
+    
 }
